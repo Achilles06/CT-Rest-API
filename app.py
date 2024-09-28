@@ -4,7 +4,7 @@ from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 from models import db
 from blueprints.employee import employee_bp
-from blueprints.product import product_bp
+from blueprints.products import product_bp
 from blueprints.order import order_bp
 from blueprints.customer import customer_bp
 from blueprints.production import production_bp
